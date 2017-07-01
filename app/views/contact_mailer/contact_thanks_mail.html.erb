@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta content='text/html; charset=UTF-8' http-equiv='Content-Type' />
+  </head>
+  <body>
+    <h1><%= @contact.family_name %>様</h1>
+      <p>
+      お問い合わせを受け付けました。
+      2両日以内にご連絡いたします。
+      内容は下記です。<br>
+    </p>
+    <p>
+      <%= @contact.free_field %>
+    </p>
+  </body>
+</html>

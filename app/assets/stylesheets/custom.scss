@@ -1,0 +1,128 @@
+//ボタン
+
+//大きいボタン
+.wide {
+  padding: 6px 50px;
+}
+
+//小さいボタン
+.small {
+  padding: 1px 6px;
+  font-size: 14px;
+}
+
+.btn-head {
+  border:3px solid;
+  border-color: #fff;
+  -webkit-transition-timing-function: ease;
+       -o-transition-timing-function: ease;
+          transition-timing-function: ease;
+  -webkit-transition-duration: .3s;
+       -o-transition-duration: .3s;
+          transition-duration: .3s;
+  -webkit-transition-property: all;
+       -o-transition-property: all;
+          transition-property: all;
+  a {
+    color: #fff;
+  }
+}
+
+.edit {
+  margin: 0 0 20px 0;
+}
+
+.submit {
+  margin: 28px 28px 28px 450px;
+}
+
+//タブ切り替えボタンの調整
+.nav > li > a {
+  padding: 10px 30px;
+  margin-top: 24px;
+}
+
+//トップページのプロジェクトラベルを追加
+.admin-label {
+  padding: 3px 3px 3px 10px;
+  background-color: #939CA5;
+  border-radius: 2px;
+}
+
+//ヘッダーボタンのhoverの色を#18bc9cから#ED897Fに変更
+.navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
+  color: #ED897F;
+}
+
+.nav .open > a, .nav .open > a:hover, .nav .open > a:focus {
+  border-color: #ED897F;
+}
+
+.navbar-brand {
+  padding: 22px 15px;
+}
+
+.navbar-fixed-top {
+  border-width: 0 0 3px;
+}
+
+//各ページトップのh1に下線を追加
+.line {
+  border-left: solid 5px;
+  border-bottom: solid 1px;
+  margin-bottom: 20px;
+  padding: 5px;
+}
+
+//テーブル
+
+//テーブルに境界線を追加
+td {
+  border: 1px #DDDDDD solid;
+}
+
+//テーブルの項目の文字を太字に変更
+.column  {
+  font-weight:bold;
+}
+
+//フォーム
+
+//ユーザー情報編集フォームの幅を100%に拡張
+.full {
+  width: 100%;
+}
+
+//フラッシュメッセージ
+.alert-error {
+  background-color: #f2dede;
+  border-color: #eed3d7;
+  color: #b94a48;
+  font-size: 18px;
+  padding: 0 10px;
+ }
+
+.alert-alert {
+  background-color: #f2dede;
+  border-color: #eed3d7;
+  color: #b94a48;
+  font-size: 18px;
+  text-align: center;
+ }
+
+.alert-success {
+  background-color: #dff0d8;
+  border-color: #d6e9c6;
+  color: #468847;
+  font-size: 18px;
+  text-align: center;
+ }
+
+.alert-notice {
+  background-color: #dff0d8;
+  border-color: #d6e9c6;
+  color: #468847;
+  font-size: 18px;
+  text-align: center;
+  padding-top: 15px;
+ }

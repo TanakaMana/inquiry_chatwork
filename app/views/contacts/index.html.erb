@@ -1,0 +1,29 @@
+<div class="container">
+  <div class="page-header">
+    <h1>お問い合わせフォーム</h1>
+  </div>
+  <%= form_for @contact, url: :confirm_contacts do |f| %>
+    <table class="table">
+      <tr>
+        <th>名前<span class="text-danger"> (必須)</span></th>
+        <td><%= f.text_field :family_name %></td>
+      </tr>
+
+      <tr>
+        <th>メールアドレス<span class="text-danger"> (必須)</span></th>
+        <td><%= f.text_field :email %></td>
+      </tr>
+
+      <tr>
+        <th>電話番号<span> (任意)</span></th></th>
+        <td><%= f.text_field :phone_number %></td>
+      </tr>
+
+      <tr>
+        <th>問い合わせ内容<span class="text-danger"> (必須)</span></th>
+        <td><%= f.text_area :free_field %></td>
+      </tr>
+    </table>
+      <%= f.submit '送信', class: 'btn btn-primary' %>
+  <% end %>
+</div>
